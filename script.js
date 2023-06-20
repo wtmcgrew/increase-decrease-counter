@@ -16,12 +16,10 @@ document.getElementById("increase").onclick = function() {
 }
 
 /*
-
 Use DOM to target elements by ID on HTML document
 
 Onclick makes the buttons clickable on the HTML layout
 
 -= (count = count - 1)
 +- (count = count + 1)
-
 */
