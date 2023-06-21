@@ -23,22 +23,21 @@ body {
 	font-family: 'Quicksand', sans-serif;
 }
 
-h3 {
-	font-size: 16px;
+h2 {
+	font-size: 32px;
 	font-weight: 600;
 	color: #ffffff;
 }
 
 .label {
 	width: 40px;
-	font-size: 16px;
+	font-size: 28px;
 	font-weight: 600;
 	background-color: #0f0f14;
 	color: #ffffff;
 	padding: 20px 0;
 	text-align: center;
 	margin-top: 30px;
-	border: 2px solid #3c3c3c;
 }
 
 .decrement, .clear, .increment{
