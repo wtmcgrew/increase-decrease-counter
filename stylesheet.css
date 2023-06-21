@@ -54,7 +54,7 @@ h2 {
 @media only screen and (max-width: 768px) {
 	body {
 		display: block;
-		background: linear-gradient(to right, #616161 , #f9f9f9);
+		background: linear-gradient(to right, #2158D3 , #f9f9f9);
 		align-items: center;
 		margin: 0;
 	}
