@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
 	padding: 50px, 10px;
 	display: grid;
 	justify-items: center;
-	font-family: 'Quicksand', sans-serif;
 }
 
 h2 {
@@ -43,7 +43,7 @@ h2 {
 .decrement, .clear, .increment{
 	width: 60px;
 	padding: 15px 0;
-	background-color:#101373;
+	background-color:#2158D3;
 	color: #ffffff;
 	border: none;
 	font-size: 18px;
@@ -52,8 +52,12 @@ h2 {
 }
 
 button {
-	font-family: 'Quicksand', sans-serif;
 	cursor: pointer;
+}
+
+button:hover:not([disabled]) {
+	background-color: rgba(33, 88, 211, 0.33);
+	color: #fffff;
 }
 
 @media only screen and (max-width: 768px) {
